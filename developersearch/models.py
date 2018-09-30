@@ -12,14 +12,14 @@ class Developers(models.Model):
 
 
 class ProgrammingLanguages(models.Model):
-    developer = models.ManyToManyField(Developers)
+    developers = models.ManyToManyField(Developers)
     name = models.CharField(max_length=254, unique=True, null=False)
 
     class Meta:
         db_table = 'programming_languages'
 
 class Languages(models.Model):
-    developer = models.ManyToManyField(Developers)
+    developers = models.ManyToManyField(Developers)
     code = models.CharField(max_length=254, unique=True, null=False)
 
     class Meta:

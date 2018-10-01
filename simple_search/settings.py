@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'developersearch.apps.DevelopersearchConfig',
+    'django_seed',
+    'reset_migrations',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

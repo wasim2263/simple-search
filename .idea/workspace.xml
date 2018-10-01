@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b4985e4-ea99-4410-8f76-f04ad6306938" name="Default Changelist" comment="" />
+    <list default="true" id="7b4985e4-ea99-4410-8f76-f04ad6306938" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/developersearch/fixtures/languages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developersearch/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/developersearch/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developersearch/migrations/0002_auto_20180930_0735.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/developersearch/migrations/0003_auto_20180930_0736.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_search/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_search/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,30 +19,38 @@
     <session id="1598579387">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="json" value="1" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="517" />
+          <entry key="json" value="56" />
+          <entry key="py" value="902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="517" />
+          <entry key="JSON" value="56" />
+          <entry key="Python" value="902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -46,11 +61,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developersearch/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1538290831793" expanded="true" signature="739:1008" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_search/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
@@ -68,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developersearch/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="75">
               <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -83,13 +97,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_search/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="525">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/developersearch/fixtures/languages.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/populate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FIXTURE_DIRS</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,10 +143,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simple_search/settings.py" />
-        <option value="$PROJECT_DIR$/developersearch/models.py" />
         <option value="$PROJECT_DIR$/simple_search/urls.py" />
         <option value="$PROJECT_DIR$/developersearch/admin.py" />
+        <option value="$PROJECT_DIR$/developersearch/models.py" />
+        <option value="$PROJECT_DIR$/simple_search/settings.py" />
+        <option value="$PROJECT_DIR$/developersearch/fixtures/languages.json" />
+        <option value="$PROJECT_DIR$/populate.py" />
       </list>
     </option>
   </component>
@@ -116,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,16 +179,28 @@
             <path>
               <item name="simple_search" type="b2602c69:ProjectViewProjectNode" />
               <item name="simple_search" type="462c0819:PsiDirectoryNode" />
+              <item name="developersearch" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simple_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simple_search" type="462c0819:PsiDirectoryNode" />
               <item name="simple_search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,7 +242,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33035713" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20357142" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -195,16 +254,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simplesearch/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/simplesearch/models.py" />
     <entry file="file://$PROJECT_DIR$/developersearch/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -215,28 +265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/developersearch/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1538290831793" expanded="true" signature="739:1008" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple_search/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple_search/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="e#637#669#0" expanded="true" />
           </folding>
@@ -245,11 +277,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developersearch/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="75">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_search/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developersearch/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developersearch/fixtures/languages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

@@ -15,8 +15,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url, include
+from rest_framework import routers
+from developerapi import views
+from rest_framework.urlpatterns import format_suffix_patterns
+
+router = routers.DefaultRouter()
+router.register(r'users', views.UserViewSet)
+router.register(r'groups', views.GroupViewSet)
+router.register(r'developers', views.DeveloperList)
+# router.register(r'^developer/{pk}', views.developer_details)
+
 
 urlpatterns = [
+    url(r'api/', include(router.urls)),
     path('admin/', admin.site.urls),
     path('', include('developersearch.urls')),
+    path(r'^api-auth/', include('rest_framework.urls'))
+
 ]

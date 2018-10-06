@@ -3,64 +3,56 @@
     "model": "developersearch.programminglanguages",
     "pk": 1,
     "fields": {
-      "name": "java",
-      "developers": []
+      "name": "java"
     }
   },
   {
     "model": "developersearch.programminglanguages",
     "pk": 2,
     "fields": {
-      "name": "python",
-      "developers": []
+      "name": "python"
     }
   },
   {
     "model": "developersearch.programminglanguages",
     "pk": 3,
     "fields": {
-      "name": "php",
-      "developers": []
+      "name": "php"
     }
   },
   {
     "model": "developersearch.programminglanguages",
     "pk": 4,
     "fields": {
-      "name": "ruby",
-      "developers": []
+      "name": "ruby"
     }
   },
   {
     "model": "developersearch.programminglanguages",
     "pk": 5,
     "fields": {
-      "name": "kotlin",
-      "developers": []
+      "name": "kotlin"
     }
   },
   {
     "model": "developersearch.languages",
     "pk": 1,
     "fields": {
-      "code": "pt",
-      "developers": []
+      "code": "pt"
     }
   },
   {
     "model": "developersearch.languages",
     "pk": 2,
     "fields": {
-      "code": "en",
-      "developers": []
+      "code": "en"
     }
   },
   {
     "model": "developersearch.languages",
     "pk": 3,
     "fields": {
-      "code": "jp",
-      "developers": []
+      "code": "jp"
     }
   }
 ]

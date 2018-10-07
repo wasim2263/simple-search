@@ -25,5 +25,5 @@ class DeveloperSerializer(serializers.HyperlinkedModelSerializer):
     
     class Meta:
         model = Developers
-        fields = (['email', 'languages'])
+        fields = (['id', 'email', 'languages'])
 

@@ -6,7 +6,6 @@ from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from developersearch.models import Developers
 from developerapi.serializers import UserSerializer, GroupSerializer, DeveloperSerializer
-from rest_framework.views import APIView
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -23,7 +22,6 @@ class GroupViewSet(viewsets.ModelViewSet):
     """
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
-
 
 class DeveloperList(viewsets.ModelViewSet):
     queryset = Developers.objects.all()

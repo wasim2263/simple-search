@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b4985e4-ea99-4410-8f76-f04ad6306938" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developerapi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/developerapi/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developerapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/developerapi/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developersearch/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/developersearch/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/developersearch/templates/developersearch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/developersearch/templates/developersearch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_search/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_search/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_search/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_search/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="7b4985e4-ea99-4410-8f76-f04ad6306938" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +12,7 @@
     <session id="1598579387">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="3" />
@@ -204,9 +196,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="690" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19434103" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19434103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,7 +208,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32857144" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3375" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3375" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

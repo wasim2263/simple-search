@@ -19,11 +19,17 @@ class LanguageSerializer(serializers.HyperlinkedModelSerializer):
         model = Languages
         fields = (['code'])
 
+class ProgrammingLanguageSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = ProgrammingLanguages
+        fields = (['name'])
+
 
 class DeveloperSerializer(serializers.HyperlinkedModelSerializer):
     languages = LanguageSerializer(read_only=True, many=True)
-    
+    programming_languages = ProgrammingLanguageSerializer(read_only=True, many=True)
+
     class Meta:
         model = Developers
-        fields = (['id', 'email', 'languages'])
+        fields = (['id', 'email', 'languages', 'programming_languages'])
 
